@@ -2,7 +2,7 @@
 
 describe('Navegação até a seção "Pra Você" e clique no botão "Onde usar meu cartão VR"', () => {
   it('Deve acessar o menu "Pra Você" e clicar no botão "Onde usar meu cartão VR"', () => {
-    cy.viewport(1920, 1080); // Adequa a tela para melhor visualização
+    cy.viewport(1920, 1080); // Adequa a tela para melhor visualização.
     cy.visit("https://www.vr.com.br/"); // Acessa o Site da VR
 
     cy.get('#lum_4028808471FC1D5D0171FE80340D6AC8_quickAcceptTerm').click(); // Aceitar os termos e condições (se necessário).

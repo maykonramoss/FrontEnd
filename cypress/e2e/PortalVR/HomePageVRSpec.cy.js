@@ -14,8 +14,8 @@ describe('Navegação até a seção "Pra Você" e clique no botão "Onde usar m
 
 describe('Navegação até a seção "Pra Você", clique no botão "Onde usar meu cartão VR" e valide a abertura do mapa do Google', () => {
   it('Deve acessar o menu "Pra Você", clicar no botão "Onde usar meu cartão VR" e validar a abertura do mapa do Google', () => {
-    cy.viewport(1920, 1080); // Adequa a tela para melhor visualização
-    cy.visit("https://www.vr.com.br/"); // Acessa o Site da VR  
+    cy.viewport(1920, 1080); // Adequa a tela para melhor visualização.
+    cy.visit("https://www.vr.com.br/"); // Acessa o Site da VR . 
 
     cy.get('#lum_4028808471FC1D5D0171FE80340D6AC8_quickAcceptTerm').click(); // Aceitar os termos e condições (se necessário).
     cy.get(':nth-child(3) > .vr-main-navigation__link').click(); // Navegar até a seção "Pra Você".

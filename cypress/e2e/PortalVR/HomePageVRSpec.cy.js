@@ -8,7 +8,7 @@ describe('Navegação até a seção "Pra Você" e clique no botão "Onde usar m
     cy.get('#lum_4028808471FC1D5D0171FE80340D6AC8_quickAcceptTerm').click(); // Aceitar os termos e condições (se necessário).
     cy.get(':nth-child(3) > .vr-main-navigation__link').click(); // Navegar até a seção "Pra Você".
     cy.get('.vr-button--negative').click(); // Clicar no botão "Onde usar meu cartão VR".
-    cy.scrollTo('bottom'); // Role a página para baixo para garantir que o mapa do Google esteja visível.
+    cy.scrollTo('bottom'); // Role a página para baixo para garantir que o mapa do Google esteja visívell.
   });
 });
 
